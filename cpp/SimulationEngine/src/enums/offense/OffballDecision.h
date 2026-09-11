@@ -1,0 +1,18 @@
+//
+// Created by william on 9/11/2026.
+//
+
+#ifndef SIMULATIONENGINE_OFFBALLDECISION_H
+#define SIMULATIONENGINE_OFFBALLDECISION_H
+
+
+enum OffballDecision {
+    CUT,
+    SCREEN,
+    POST_UP,
+    SPOT_UP
+
+};
+
+
+#endif //SIMULATIONENGINE_OFFBALLDECISION_H

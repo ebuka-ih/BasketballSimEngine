@@ -1,0 +1,18 @@
+//
+// Created by william on 9/11/2026.
+//
+
+#ifndef SIMULATIONENGINE_BALLHOLDERDECISION_H
+#define SIMULATIONENGINE_BALLHOLDERDECISION_H
+
+
+enum BallHolderDecision {
+    HOLD,
+    DRIBBLE,
+    PASS,
+    DRIVE,
+    SHOOT
+};
+
+
+#endif //SIMULATIONENGINE_BALLHOLDERDECISION_H

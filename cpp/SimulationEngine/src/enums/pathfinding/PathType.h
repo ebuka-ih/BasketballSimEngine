@@ -1,0 +1,19 @@
+//
+// Created by william on 9/10/2026.
+//
+
+#ifndef SIMULATIONENGINE_PATHTYPE_H
+#define SIMULATIONENGINE_PATHTYPE_H
+
+
+enum PathType {
+    OFFENSIVE_DECISION,
+
+    SHOT,
+    DRIVE,
+
+    OFFBALL_MOVEMENT
+};
+
+
+#endif //SIMULATIONENGINE_PATHTYPE_H

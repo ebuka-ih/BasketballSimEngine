@@ -1,0 +1,16 @@
+//
+// Created by william on 9/10/2026.
+//
+
+#ifndef SIMULATIONENGINE_GAMESITUATION_H
+#define SIMULATIONENGINE_GAMESITUATION_H
+
+
+enum GameSituation {
+    NORMAL,
+    CLUTCH,
+    LATE_GAME
+};
+
+
+#endif //SIMULATIONENGINE_GAMESITUATION_H

@@ -1,0 +1,20 @@
+//
+// Created by william on 9/10/2026.
+//
+
+#ifndef SIMULATIONENGINE_SHOTTYPE_H
+#define SIMULATIONENGINE_SHOTTYPE_H
+
+
+enum ShotType {
+    CLOSE_RANGE,
+    MID_RANGE,
+    THREE_POINT,
+    FOUR_POINT,
+    HALF_COURT,
+    SEVENTY_FIVE_COURT,
+    FULL_COUR
+};
+
+
+#endif //SIMULATIONENGINE_SHOTTYPE_H
