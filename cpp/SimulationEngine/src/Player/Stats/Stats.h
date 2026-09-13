@@ -28,7 +28,7 @@ class Stats {
     int confidence;
 
     public:
-    explicit Stats(const int* stats);
+    explicit Stats(const int (&stats)[16]);
     [[nodiscard("finishing ignored")]]int getFinishing() const;
     [[nodiscard("midrange ignored")]]int getMidrange() const;
     [[nodiscard("three point ignored")]]int getThreePoint() const;

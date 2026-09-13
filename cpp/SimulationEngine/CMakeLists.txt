@@ -26,7 +26,8 @@ add_library(simulation SHARED src/Simulation.cpp
         src/enums/offense/ShotType.h
         src/enums/offense/OffensiveSpots.h
         src/Util/Util.cpp
-        src/Util/Util.h)
+        src/Util/Util.h
+        src/game/GameResult.h)
 
 
 

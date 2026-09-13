@@ -8,7 +8,7 @@ using namespace std;
 extern "C" {
 
     __declspec(dllexport)
-    Stats* exportStat(const int* stats) {
+    Stats* exportStat(const int (&stats)[16]) {
         for (int i = 0; i < 16; i++) {
             cout << stats[i] << endl;
         }
