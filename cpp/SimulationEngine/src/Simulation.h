@@ -9,7 +9,7 @@
 
 class Simulation {
 
-    Stats exportStat(const int* stats);
+    Stats exportStat(const int (&stats)[16]);
 };
 
 

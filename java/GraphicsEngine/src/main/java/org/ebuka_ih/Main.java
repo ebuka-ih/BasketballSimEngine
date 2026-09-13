@@ -13,7 +13,7 @@ public class Main {
         Linker linker = Linker.nativeLinker();
 
 
-        SymbolLookup lookup = SymbolLookup.libraryLookup("C:\\Users\\william\\CLionProjects\\SimulationEngine\\cmake-build-debug\\simulation.dll", Arena.global());
+        SymbolLookup lookup = SymbolLookup.libraryLookup("C:\\Users\\william\\Documents\\repos\\BasketballSimEngine\\cpp\\SimulationEngine\\cmake-build-debug\\simulation.dll", Arena.global());
 
         MemorySegment importStat = lookup.find("exportStat").orElseThrow();
         MethodHandle tMethod = linker.downcallHandle(importStat, FunctionDescriptor.of(ValueLayout.ADDRESS, ValueLayout.ADDRESS));

@@ -4,7 +4,7 @@
 
 #include "../Stats/Stats.h"
 
-Stats::Stats(const int* stats) {
+Stats::Stats(const int (&stats)[16]) {
     finishing = stats[0];
     midrange = stats[1];
     threePoint = stats[2];

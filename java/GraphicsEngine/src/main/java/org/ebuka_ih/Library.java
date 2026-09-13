@@ -1,4 +1,4 @@
-import org.ebuka_ih.Coordinate;
+package org.ebuka_ih;
 
 import java.lang.foreign.*;
 import java.lang.invoke.MethodHandle;

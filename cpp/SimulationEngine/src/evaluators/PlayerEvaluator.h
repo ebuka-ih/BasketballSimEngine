@@ -9,7 +9,7 @@
 class PlayerEvaluator {
 
     public:
-    decideOffbaLL(Player* player, Offball)
+    decideOffbaLL(Player& player, OffballDecision dec);
 };
 
 

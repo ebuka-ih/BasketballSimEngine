@@ -10,19 +10,18 @@
 
 
 class Player;
-class Direction;
 
 class PathEvaluator {
 
-    double evaluateNode(Player* evaluator, GridNode* node, GridNode* endPoint);
+    double evaluateNode(Player& evaluator, GridNode& node, GridNode& endPoint);
     double evaluateDirection(Direction direction, Direction actual);
-    double evaluateSpacing(Player*, GridNode* node);
-    double evaluateDistance(GridNode* node, GridNode* endPoint);
-    bool isValid(GridNode* node);
+    double evaluateSpacing(Player&, GridNode& node);
+    double evaluateDistance(GridNode& node, GridNode& endPoint);
+    bool isValid(GridNode& node);
 
     public:
-    GridNode* getBestNeighbor(GridNode* node);
-    Route constructRoute(GridNode* start, GridNode* goal);
+    GridNode* getBestNeighbor(GridNode& node);
+    Route constructRoute(GridNode& start, GridNode& goal);
 
 };
 
