@@ -17,9 +17,13 @@ double PathEvaluator::evaluateDirection(Direction direction, Direction actual) {
 double PathEvaluator::evaluateSpacing(Player* player, GridNode* node) {
 
 }
-double PathEvaluator::evaluateDistance(GridNode* node, GridNode* endPoint) {
-    Coordinate* startPos = node->getCoordinate();
-    Coordinate* endPos = endPoint->getCoordinate();
+double PathEvaluator::evaluateDistance(GridNode& node, GridNode& endPoint) {
+    Coordinate& startPos = node.getCoordinate();
+    Coordinate& endPos = endPoint.getCoordinate();
+    const double dx = endPos.getX() - startPos.getX();
+    const double dy = endPos.getY() - startPos.getY();
+    double distance = sqrt(dx * dx + dy * dy);
+    return distance;
 
 }
 
